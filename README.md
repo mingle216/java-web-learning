@@ -32,7 +32,7 @@
 3.   熟悉JSON格式，并能使用Fastjson完成Java对象和JSON串的相互转换
 4.   使用axios+json完成综合案例
 
-# 6.day06-filter
+# 6.day06-Filter
 
 1.   Filter执行流程以及详细配置
 2.   Filter执行流程以及详细配置
