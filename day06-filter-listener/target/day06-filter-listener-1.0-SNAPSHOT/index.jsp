@@ -1,13 +1,18 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>index动态页面</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+<%
+    String user = (String) request.getSession().getAttribute("user");
+    request.setAttribute("user", user);
+%>
+<h2>index动态页面，需要经过过滤器才能访问，显示登录用户信息</h2>
+<h3>
+    当前用户:<%=user%>
+</h3>
+<a href="${pageContext.request.contextPath}/logout">注销</a>
 </body>
 </html>

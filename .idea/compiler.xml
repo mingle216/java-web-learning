@@ -2,18 +2,39 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="day05-jsp-el-jstl" />
+        <module name="request-response-exercise" />
         <module name="day06-filter-listener" />
-        <module name="java-web-learning" />
+        <module name="brand-case" />
         <module name="day04-cookie-session" />
         <module name="day01-servlet" />
+        <module name="day05-ajax" />
         <module name="day02-request" />
+        <module name="comprehensive-exercise" />
         <module name="day03-response" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test1" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="brand-case" options="" />
+      <module name="comprehensive-exercise" options="" />
+      <module name="day01-servlet" options="" />
+      <module name="day02-request" options="" />
+      <module name="day03-response" options="" />
+      <module name="day04-cookie-session" options="" />
+      <module name="day05-ajax" options="" />
+      <module name="day06-filter-listener" options="" />
+      <module name="request-response-exercise" options="" />
+      <module name="test1" options="" />
+    </option>
   </component>
 </project>

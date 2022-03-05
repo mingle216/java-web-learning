@@ -11,13 +11,24 @@
         <option value="$PROJECT_DIR$/day01-servlet/pom.xml" />
         <option value="$PROJECT_DIR$/day02-request/pom.xml" />
         <option value="$PROJECT_DIR$/day03-response/pom.xml" />
-        <option value="$PROJECT_DIR$/day04-cookie-session/pom.xml" />
         <option value="$PROJECT_DIR$/day05-jsp-el-jstl/pom.xml" />
         <option value="$PROJECT_DIR$/day06-filter-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/comprehensive-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/day04-cookie-session/pom.xml" />
+        <option value="$PROJECT_DIR$/day05-ajax/pom.xml" />
+        <option value="$PROJECT_DIR$/request-response-exercise/pom.xml" />
+        <option value="$PROJECT_DIR$/brand-case/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="day04-cookie-session" />
+      </set>
+    </option>
   </component>
 </project>
